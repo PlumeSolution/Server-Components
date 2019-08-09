@@ -21,8 +21,8 @@ class PeriodicCommandManager
 			$loop->addPeriodicTimer($param['timer'],
 				function ($param) use ($application)
 				{
-					$application = new Console($application);
-					$application->run($param['input']);
+					$console = new Console($application);
+					$console->run($param['input']);
 				}
 			);
 		}
