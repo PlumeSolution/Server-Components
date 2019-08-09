@@ -26,7 +26,7 @@ class ServerManager
 
 	private function generateCallback(Application $application)
 	{
-		return function(Psr\Http\Message\ServerRequestInterface $request) use ($application)
+		return function (Psr\Http\Message\ServerRequestInterface $request) use ($application)
 		{
 			try
 			{

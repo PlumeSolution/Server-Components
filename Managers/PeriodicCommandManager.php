@@ -1,8 +1,6 @@
 <?php
 
-
 namespace PlumeSolution\Server\Managers;
-
 
 use React\EventLoop\LoopInterface;
 use Thunder\Application;
